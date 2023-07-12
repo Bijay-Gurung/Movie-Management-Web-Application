@@ -45,12 +45,12 @@ const createMovieItem = (movie) => {
   movieItem.appendChild(movieDetails);
 
   const editButton = document.createElement('button');
-  editButton.textContent = 'Edit';
+  editButton.innerHTML = '<i class="fa-solid fa-pen-to-square"></i> Edit';
   editButton.addEventListener('click', () => editMovie(movie.id));
   movieItem.appendChild(editButton);
 
   const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'Delete';
+  deleteButton.innerHTML = '<i class="fa-solid fa-trash"></i> Delete';
   deleteButton.addEventListener('click', () => deleteMovie(movie.id));
   movieItem.appendChild(deleteButton);
 
