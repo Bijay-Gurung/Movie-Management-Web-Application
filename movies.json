@@ -1,0 +1,46 @@
+{
+  "movies": [
+    {
+      "title": "SpiderMan",
+      "genre": "Action",
+      "director": "James",
+      "releaseYear": "2012",
+      "id": 2
+    },
+    {
+      "title": "RRR",
+      "genre": "Action",
+      "director": "S.S Rajamouli",
+      "releaseYear": "2022",
+      "id": 4
+    },
+    {
+      "title": "dabang",
+      "genre": "Action",
+      "director": "Amit Babu",
+      "releaseYear": "2014",
+      "id": 5
+    },
+    {
+      "title": "Chennai Express",
+      "genre": "Comedy",
+      "director": "Rohit Shetty",
+      "releaseYear": "2013",
+      "id": 6
+    },
+    {
+      "title": "chennai express",
+      "genre": "Comedy",
+      "director": "Rohit Shetty",
+      "releaseYear": "2013",
+      "id": 9
+    },
+    {
+      "title": "3 idiots",
+      "genre": "Comedy",
+      "director": "Rohan Mahpuskar",
+      "releaseYear": "2009",
+      "id": 10
+    }
+  ]
+}
